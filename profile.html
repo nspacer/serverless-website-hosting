@@ -1,0 +1,51 @@
+<html>
+<head>
+    <title>Profile</title>
+    </title>
+</head>
+<body>
+    <div align="center">
+        <h1>Save and View an Employee Profile</h1>
+        Employee ID:
+        <br>
+        <input type="text" name="employeeid" id="empid">
+        <br> First name:
+        <br>
+        <input type="text" name="firstname" id="fname">
+        <br> Last name:
+        <br>
+        <input type="text" name="lastname" id="lname">
+        <br> Employee Age:
+        <br>
+        <input type="text" name="empage" id="empage">
+        <br>
+        <br>
+        <input type="submit" id="saveprofile" value="Save Profile">
+        <br>
+        <p id="profileSaved"></p>
+        <br>
+        <input type="submit" id="getprofile" value="View all the Employee Profiles">
+        <br>
+        <div id="showProfile">
+            <table id="employeeProfile">
+                <colgroup>
+                    <col style="width:20%">
+                    <col style="width:20%">
+                    <col style="width:20%">
+                    <col style="width:20%">
+                </colgroup>
+                <tbody>
+                    <tr>
+                        <th>Employee ID</th>
+                        <th>First name</th>
+                        <th>Last Name</th>
+                        <th>Employee Age</th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+</body>
+</html>
